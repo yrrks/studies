@@ -1,6 +1,7 @@
 ﻿int num1 = 456;
+
 void Method(int num){
-int res = num / 10 % 10;
-Console.WriteLine(res);
+Console.WriteLine(num / 10 % 10);
 }
+
 Method(num1);
