@@ -13,5 +13,5 @@
     }
    
 Console.WriteLine("Введите пятизначное число: ");   
-string input = (Console.ReadLine());
-method(input);
+string? input = (Console.ReadLine());
+method(input!);

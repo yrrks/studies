@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Введите число: ");
-int input = int.Parse(Console.ReadLine());
+int input = int.Parse(Console.ReadLine()!);
 
 
 void CubMethod(int num){
