@@ -10,11 +10,12 @@ Console.WriteLine("Введите y2: ");
 double y2 = double.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите z2: ");
 double z2 = double.Parse(Console.ReadLine()!);
-double[] dat = new double[] {x1,x2,y1,y2,z1,z2};
-void Method(double[] cor){
+double[] dat = new double[] { x1, x2, y1, y2, z1, z2 };
+void Method(double[] cor)
+{
     double m = 0;
     m = Math.Abs((cor[1] - cor[0]) + (cor[3] - cor[2]) + (cor[5] - cor[4]));
-    double  distance = Math.Sqrt(m);
+    double distance = Math.Sqrt(m);
     double end = distance;
     Console.WriteLine(end);
 
