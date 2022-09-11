@@ -13,18 +13,16 @@ void zapolnenie(int[] massiv)
 void honest(int[] masiv)
 
 {
-    for(int i = 0; i < size; i++){
-        if(masiv[i] % 2 == 0){
+    for (int i = 0; i < size; i++)
+    {
+        if (masiv[i] % 2 == 0)
+        {
             count++;
         }
-    
-    else{}
-        
-       
-        
+        else { }
     }
     Console.WriteLine($"Количество четных чисел : {count}");
-    
+
 }
 zapolnenie(array);
 honest(array);
